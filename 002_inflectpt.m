@@ -1,5 +1,24 @@
 function [min_error,ti] = inflectpt(time,perimeter)
+    
+    
+    % Code meant to detect the point of inflexion of a curve provide
+    % This code was developped by Alexis Villars in the Team of Romain Levayer at Institut Pasteur 
+    % Last modification 09/05/2022
 
+    % This code is provided under an MIT license in a repository for the publication in nature communications
+    
+    % This functions computes two fits. One between t0 and ti and one between ti and t_end. For each ti, it computes the error between the fit 
+    % and the actual datas in perimeter. 
+    
+    % it return two variables
+    % min_error is the minimum of the error found for all ti 
+    % ti is the inflexion point obtained for the min_error. 
+    
+    % it takes 2 parameters
+    % time is a vector of the same length of the perimeter vector. Best pratice is to set it to 1:length(perimeter) 
+    % to return direct index of the found inflexion point
+    % perimeter is the actual vector of data for which you want to found the inflexion point. 
+    
     error_total = zeros(length(time)-3,1);
          
     for jj = 2:length(time)-1
