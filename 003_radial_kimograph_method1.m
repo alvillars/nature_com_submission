@@ -1,5 +1,23 @@
-%first version by L Valon 2019_02_07
-% meant to quantify microtubule intensity radialy
+% Code meant to quantify microtubule intensity radialy
+%
+% first version by L Valon 2019_02_07
+% This code was modified to its lastest version by Alexis Villars in the team of Romain Levayer at the Institut Pasteur. 
+% 
+% Lastest modification the 09/05/2022
+%
+% This code is provided under an MIT license in a repository for the publication in nature communications
+%
+% This code provide a way of clicking the center of all the cells you wan to quantify. 
+% Then it creates a distance map from that center to the border of your field of view. 
+% It then compute the average pixel value in concentric circles of thickness 3 as follow: 
+% for i=0 : maxi
+%    ind=find(DISTANCE>i & DISTANCE<=i+3);
+%    V1(i+1)=mean(I1(ind));
+%    V2(i+1)=mean(I2(ind));
+% end
+% 
+% It then returns the corresponding kimograph. 
+% the rest of the code only allow to average and align all the kimographs. 
 
 %% presting
 clear all
