@@ -1,8 +1,8 @@
-# Code meant to perform normalized cross correlation between 2 sequence (time) datasets
-# This code was developped by Alexis Villars in the Team of Romain Levayer at Institut Pasteur 
-# Last modification 09/05/2022
+% Code meant to perform normalized cross correlation between 2 sequence (time) datasets
+% This code was developped by Alexis Villars in the Team of Romain Levayer at Institut Pasteur 
+% Last modification 09/05/2022
 
-# This code is provided under an MIT license in a repository for the publication in nature communications
+% This code is provided under an MIT license in a repository for the publication in nature communications
 
 
 clear all
