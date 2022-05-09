@@ -1,7 +1,7 @@
-%% Developped by Alexis Villars
+% Developped by Alexis Villars
 %
-%Calculation of yield before and after onset of extrusion
-%calculation of yield over the course of extrusion
+% Calculation of yield before and after onset of extrusion
+% calculation of yield over the course of extrusion
 % 
 
 %% Settings for opening
@@ -182,7 +182,7 @@ for i = 1:n
     
     [pks,t] = findpeaks(constrictions(1:60,i));
     %%basic yield calculation
-    %%yield = contraction réelle/quantité de myosine
+    %%yield = contraction rÃ©elle/quantitÃ© de myosine
     for j = 1:length(pks)
         cr = pks(j);
         myo = tfmi(t(j),i);
