@@ -4,7 +4,7 @@
 
 % This code is provided under an MIT license in a repository for the publication in nature communications
 
-%% Settings for opening
+% Settings for opening
 
 cd('Y:\Alexis\movies\exp7_fast_sqh\extrusion');
 number_files = dir('sqh*');
