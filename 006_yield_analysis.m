@@ -1,8 +1,8 @@
-% Developped by Alexis Villars
-%
-% Calculation of yield before and after onset of extrusion
-% calculation of yield over the course of extrusion
-% 
+% Code meant to compute the contraction yield before and after onset of extrusion & over the course of extrusion
+% This code was developped by Alexis Villars in the Team of Romain Levayer at Institut Pasteur 
+% Last modification 09/05/2022
+
+% This code is provided under an MIT license in a repository for the publication in nature communications
 
 %% Settings for opening
 
