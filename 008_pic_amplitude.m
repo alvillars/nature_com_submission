@@ -1,3 +1,13 @@
+% Code meant to compute pic amplitude
+%
+% This code was developped by Alexis Villars in the team of Romain Levayer at the Institut Pasteur. 
+% Lastest modification the 13/05/2022
+%
+% This code is provided under an MIT license in a repository for the publication in nature communications
+%
+% Find the peaks using findpeaks function from matlab with a prominence of 10 to get rid of noisy peaks. 
+% The it return the value and the location of that peak. Meant to compare 2 cell popupalations (wt and uas-hid-rnai)
+
 nf = length(dir('sqh*'));
 warning('off')
 
