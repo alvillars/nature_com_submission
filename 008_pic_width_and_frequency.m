@@ -1,4 +1,4 @@
-% Code meant to compute cross correlation
+% Code meant to measure peak width and frequency
 %
 % This code was developped by Alexis Villars in the team of Romain Levayer at the Institut Pasteur. 
 % Lastest modification the 13/05/2022
