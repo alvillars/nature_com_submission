@@ -1,8 +1,12 @@
-%% Developped by Alexis Villars
-% 2018-10-30
+% Code meant to compute cross correlation
 %
-% Yield calculation for sqh in wt and hid 
-% 
+% This code was developped by Alexis Villars in the team of Romain Levayer at the Institut Pasteur. 
+% Lastest modification the 13/05/2022
+%
+% This code is provided under an MIT license in a repository for the publication in nature communications
+%
+% it takes as input datas from perimeter measurements and myosin intensity measurements and performs peaks detection using matlab's findpeaks. 
+% It returns the peak width at half maximum as well as the peak location and the number of peaks in different windows to measures frequency. 
 
 %% opening of file
 
