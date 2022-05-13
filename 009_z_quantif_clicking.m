@@ -1,3 +1,12 @@
+% Code meant to measure intensity along the z axis of the cell
+%
+% This code was developped by Alexis Villars in the team of Romain Levayer at the Institut Pasteur. 
+% Lastest modification the 13/05/2022
+%
+% This code is provided under an MIT license in a repository for the publication in nature communications
+%
+% provide a way of clicking the cell at each z to follow the cells when they are tilted to provide a z-scan plot. 
+
 clear all; close all; clc
 addpath('Y:\Alexis\movies\000_codes and processes')
 ROI = ReadImageJROI('RoiSet.zip');
