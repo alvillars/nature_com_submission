@@ -1,3 +1,14 @@
+% Code meant to compute cross correlation
+%
+% This code was developped by Alexis Villars in the team of Romain Levayer at the Institut Pasteur. 
+% Lastest modification the 13/05/2022
+%
+% This code is provided under an MIT license in a repository for the publication in nature communications
+%
+% it takes as input datas from perimeter measurements and myosin intensity measurements at different apical location and performs 
+% normalized cross correlations, detect the inflection point etc.. and plot the results
+
+
 clear all; close all; clc
 cd('Y:\Alexis\movies\exp7_fast_sqh\extrusion');
 number_files = dir('sqh*');
